@@ -358,8 +358,8 @@ def dt(varID, Neg_infinity, trace, index, prev_weights, root_lgM, OR_details=[],
 
 
 if __name__ == '__main__':
-    variant_input = os.path.join('x10.csv')  # variant data input
-    trait_input = os.path.join('y10.csv')  # traits input
+    variant_input = os.path.join('SGA.csv')  # variant data input
+    trait_input = os.path.join('DEG.csv')  # traits input
     parameter = 1  # Parameter tuning input
 
     subIDs, varIDs, variants, df_variants = read_variantsF1(variant_input)
