@@ -124,3 +124,4 @@ PathwayPair_df = PathwayPair_df[['Number of appearances as partners in the same 
 
 # Save Pathway Pair analysis as csv file 
 PathwayPair_df.to_csv('PathwayPair_analysis.csv')
+
